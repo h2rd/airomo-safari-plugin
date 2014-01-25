@@ -7,9 +7,9 @@
 	<key>Builder Version</key>
 	<string>9537.73.11</string>
 	<key>CFBundleDisplayName</key>
-	<string>airomo</string>
+	<string>Airomo Url Search</string>
 	<key>CFBundleIdentifier</key>
-	<string>skrynkovskyy.airomo-search</string>
+	<string>skrynkovskyy.airomo-url-search</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -42,7 +42,7 @@
 		<dict/>
 	</dict>
 	<key>Description</key>
-	<string>airomo</string>
+	<string>Airomo search by url</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -55,7 +55,5 @@
 			<string>All</string>
 		</dict>
 	</dict>
-	<key>Website</key>
-	<string>http://airomo.com</string>
 </dict>
 </plist>
