@@ -6,12 +6,11 @@ Global HTML Page to control the extension logic.
 <script>
 safari.application.addEventListener("command", performCommand, true);
 
-// Function to perform when event is received
 function performCommand(event) {
     if (event.command == "search") {
         var current_url = safari.application.activeBrowserWindow.activeTab.url;
-        var newTab = safari.application.activeBrowserWindow.openTab(); // Open a new tab
-        newTab.url = "http://static.airomo.com/widgets/search/results.html?q=" + current_url; // Set tab URL to nettuts
+        var newTab = safari.application.activeBrowserWindow.openTab();
+        newTab.url = "http://static.airomo.com/widgets/search/results.html?q=" + current_url;
     }
 }
 </script>
