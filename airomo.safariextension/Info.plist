@@ -5,11 +5,11 @@
 	<key>Author</key>
 	<string>Igor Skrynkovskyy</string>
 	<key>Builder Version</key>
-	<string>9537.73.11</string>
+	<string>9537.75.14</string>
 	<key>CFBundleDisplayName</key>
 	<string>Got Apps? : Search for Apps and Games</string>
 	<key>CFBundleIdentifier</key>
-	<string>skrynkovskyy.airomo-url-search</string>
+	<string>com.airomo.safari-extn</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -32,7 +32,7 @@
 				<key>Include By Default</key>
 				<true/>
 				<key>Label</key>
-				<string>Airomo search</string>
+				<string>Got Apps? : Search for Apps and Games</string>
 			</dict>
 		</array>
 	</dict>
