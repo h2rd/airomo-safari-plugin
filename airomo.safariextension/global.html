@@ -7,10 +7,10 @@ Global HTML Page to control the extension logic.
 safari.application.addEventListener("command", performCommand, true);
 
 function performCommand(event) {
-    if (event.command == "search") {
-        var current_url = safari.application.activeBrowserWindow.activeTab.url;
+    var current_url = safari.application.activeBrowserWindow.activeTab.url;
+    if ('search' === event.command && current_url) {
         var newTab = safari.application.activeBrowserWindow.openTab();
-        newTab.url = "http://static.airomo.com/widgets/search/results.html?q=" + current_url;
+        newTab.url = "http://static.airomo.com/widgets/search-uc/sresults.html?q=" + current_url + "&stores=1";
     }
 }
 </script>
